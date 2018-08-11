@@ -15,6 +15,9 @@
 		181818E82115CD490093768F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181818E62115CD490093768F /* LaunchScreen.storyboard */; };
 		181818F32115CD490093768F /* LoginRegisterDomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181818F22115CD490093768F /* LoginRegisterDomainTests.swift */; };
 		181818FE2115CD490093768F /* LoginRegisterDomainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181818FD2115CD490093768F /* LoginRegisterDomainUITests.swift */; };
+		1818190C2115DE540093768F /* RegisterLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818190B2115DE540093768F /* RegisterLogin.swift */; };
+		182554762116FB02002ECEE6 /* ScanQR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182554752116FB02002ECEE6 /* ScanQR.swift */; };
+		18D8FEC0211777470096C686 /* tlb-qr.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D8FEBF211777470096C686 /* tlb-qr.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		181818F92115CD490093768F /* LoginRegisterDomainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginRegisterDomainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181818FD2115CD490093768F /* LoginRegisterDomainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterDomainUITests.swift; sourceTree = "<group>"; };
 		181818FF2115CD490093768F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1818190B2115DE540093768F /* RegisterLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterLogin.swift; sourceTree = "<group>"; };
+		182554752116FB02002ECEE6 /* ScanQR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQR.swift; sourceTree = "<group>"; };
+		18D8FEBF211777470096C686 /* tlb-qr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tlb-qr.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				181818DA2115CD490093768F /* AppDelegate.swift */,
 				181818DC2115CD490093768F /* ViewController.swift */,
+				1818190B2115DE540093768F /* RegisterLogin.swift */,
+				182554752116FB02002ECEE6 /* ScanQR.swift */,
 				181818DE2115CD490093768F /* Main.storyboard */,
+				18D8FEBF211777470096C686 /* tlb-qr.png */,
 				181818E42115CD490093768F /* Assets.xcassets */,
 				181818E62115CD490093768F /* LaunchScreen.storyboard */,
 				181818E92115CD490093768F /* Info.plist */,
@@ -238,6 +247,7 @@
 				181818E82115CD490093768F /* LaunchScreen.storyboard in Resources */,
 				181818E52115CD490093768F /* Assets.xcassets in Resources */,
 				181818E02115CD490093768F /* Main.storyboard in Resources */,
+				18D8FEC0211777470096C686 /* tlb-qr.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1818190C2115DE540093768F /* RegisterLogin.swift in Sources */,
 				181818DD2115CD490093768F /* ViewController.swift in Sources */,
+				182554762116FB02002ECEE6 /* ScanQR.swift in Sources */,
 				181818DB2115CD490093768F /* AppDelegate.swift in Sources */,
 				181818E32115CD490093768F /* LoginRegisterDomain.xcdatamodeld in Sources */,
 			);
@@ -507,6 +519,7 @@
 				181819042115CD490093768F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181819052115CD490093768F /* Build configuration list for PBXNativeTarget "LoginRegisterDomainTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				181819072115CD490093768F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181819082115CD490093768F /* Build configuration list for PBXNativeTarget "LoginRegisterDomainUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				1818190A2115CD490093768F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
